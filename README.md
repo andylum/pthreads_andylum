@@ -1,2 +1,2 @@
 # pthreads_andylum
-485 pThreads
+initial program (pThreads.c) will launch x threads that will print their thread id and halt. noSynch.c and pLocks.c both will have default values of x = 4 and y = 10000. In pLocks, mutex is initialized in the beginning of the main function. At the end of the function the same mutex is unlocked and at the end of the main function when the threads are done, the mutex is destroyed.
